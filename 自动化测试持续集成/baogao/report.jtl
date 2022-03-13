@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="62" it="0" lt="52" ct="14" ts="1641547501694" s="true" lb="后台首页刷新-获取登陆参数" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="3583" sby="166" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <sample t="0" it="0" lt="0" ct="0" ts="1641547501756" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="336" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="11" ct="0" ts="1641547501763" s="true" lb="后台登陆--正向登陆" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="497" sby="367" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="27" ct="0" ts="1641547501776" s="true" lb="后台添加商品" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="1943" sby="617" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="114" it="0" lt="84" ct="28" ts="1641633903622" s="true" lb="后台首页刷新-获取登陆参数" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="3583" sby="166" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1641633903736" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="336" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="30" ct="0" ts="1641633903761" s="true" lb="后台登陆--正向登陆" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="497" sby="367" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="26" ct="0" ts="1641633903792" s="true" lb="后台添加商品" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="1943" sby="617" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="42330" it="0" lt="0" ct="31275" ts="1642585065702" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1642585108031" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="44177" it="0" lt="0" ct="44177" ts="1642585108042" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="33155" it="0" lt="0" ct="33155" ts="1642585152222" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4161" it="0" lt="0" ct="4112" ts="1642670759082" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1642670763243" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4082" it="0" lt="0" ct="4082" ts="1642670763267" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4098" it="0" lt="0" ct="4098" ts="1642670767351" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="31038" it="0" lt="0" ct="19988" ts="1642757406604" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1642757437641" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="44189" it="0" lt="0" ct="44189" ts="1642757437654" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="44217" it="0" lt="0" ct="44217" ts="1642757481846" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4113" it="0" lt="0" ct="4093" ts="1642843931894" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1642843936007" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4076" it="0" lt="0" ct="4076" ts="1642843936015" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4060" it="0" lt="0" ct="4059" ts="1642843940094" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4643" it="0" lt="0" ct="4551" ts="1643156653482" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1643156658127" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4586" it="0" lt="0" ct="4586" ts="1643156658155" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4071" it="0" lt="0" ct="4071" ts="1643156662743" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4560" it="0" lt="0" ct="4541" ts="1643250670349" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1643250674908" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4070" it="0" lt="0" ct="4070" ts="1643250674918" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4095" it="0" lt="0" ct="4094" ts="1643250678989" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="5111" it="0" lt="0" ct="5080" ts="1643420901994" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1643420907104" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4744" it="0" lt="0" ct="4744" ts="1643420907127" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4259" it="0" lt="0" ct="4259" ts="1643420911874" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4547" it="0" lt="0" ct="4529" ts="1643506182028" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="0" it="0" lt="0" ct="0" ts="1643506186576" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4088" it="0" lt="0" ct="4087" ts="1643506186584" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4076" it="0" lt="0" ct="4076" ts="1643506190675" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4556" it="0" lt="0" ct="4531" ts="1643591513944" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1643591518510" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4079" it="0" lt="0" ct="4079" ts="1643591518518" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4078" it="0" lt="0" ct="4078" ts="1643591522599" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4410" it="0" lt="0" ct="4386" ts="1643691631179" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1643691635589" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4055" it="0" lt="0" ct="4055" ts="1643691635607" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4039" it="0" lt="0" ct="4039" ts="1643691639663" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4104" it="0" lt="0" ct="4084" ts="1643793925224" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1643793929327" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4063" it="0" lt="0" ct="4063" ts="1643793929338" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4059" it="0" lt="0" ct="4058" ts="1643793933405" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4142" it="0" lt="0" ct="4114" ts="1644028952963" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="2" it="0" lt="0" ct="0" ts="1644028957105" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4088" it="0" lt="0" ct="4088" ts="1644028957120" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4070" it="0" lt="0" ct="4070" ts="1644028961210" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4606" it="0" lt="0" ct="4581" ts="1644028970617" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1644028975222" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4065" it="0" lt="0" ct="4065" ts="1644028975234" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4051" it="0" lt="0" ct="4051" ts="1644028979301" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4912" it="0" lt="0" ct="4879" ts="1644139105919" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1644139110843" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4064" it="0" lt="0" ct="4063" ts="1644139110864" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4059" it="0" lt="0" ct="4059" ts="1644139114932" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4123" it="0" lt="0" ct="4101" ts="1644139517211" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3065" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="0" it="0" lt="0" ct="0" ts="1644139521334" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="232" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4089" it="0" lt="0" ct="4089" ts="1644139521351" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4062" it="0" lt="0" ct="4062" ts="1644139525443" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4826" it="0" lt="0" ct="4799" ts="1644285390461" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3065" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1644285395294" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="232" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4085" it="0" lt="0" ct="4085" ts="1644285395308" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4072" it="0" lt="0" ct="4072" ts="1644285399395" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4865" it="0" lt="0" ct="4834" ts="1644643253198" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="3" it="0" lt="0" ct="0" ts="1644643258060" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4053" it="0" lt="0" ct="4052" ts="1644643258080" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4062" it="0" lt="0" ct="4062" ts="1644643262139" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="4111" it="0" lt="0" ct="4078" ts="1644643271326" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1644643275437" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4042" it="0" lt="0" ct="4042" ts="1644643275462" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4029" it="0" lt="0" ct="4029" ts="1644643279507" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+<httpSample t="5014" it="0" lt="0" ct="4969" ts="1644723476019" s="false" lb="后台首页刷新-获取登陆参数" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="3066" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /一站式开启电商之旅/</failureMessage>
+  </assertionResult>
+  <sample t="1" it="0" lt="0" ct="0" ts="1644723481035" s="true" lb="后台首页刷新-获取登陆参数-0" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="233" sby="0" ng="0" na="0"/>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=index</java.net.URL>
+</httpSample>
+<httpSample t="4925" it="0" lt="0" ct="4925" ts="1644723481070" s="false" lb="后台登陆--正向登陆" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /refresh/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=main&amp;a=login</java.net.URL>
+</httpSample>
+<httpSample t="4169" it="0" lt="0" ct="4169" ts="1644723485999" s="false" lb="后台添加商品" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:81 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect" tn="线程组 1-1" dt="text" by="2833" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加商品成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://localhost:81/verydows-master/index.php?m=backend&amp;c=goods&amp;a=add&amp;step=submit</java.net.URL>
+</httpSample>
+
+</testResults>

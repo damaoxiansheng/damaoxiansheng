@@ -1,0 +1,14 @@
+[
+	{"yongli":"三位用户名进行注册","username": "app","email": "1997_15@qq.com","password": "123456789","repassword": "123456789","agree": "on","yq":"用户名不符合格式要求"},
+	{"yongli":"数字开头进行注册","username": "12app","email": "1997_15@qq.com","password": "123456789","repassword": "123456789","agree": "on","yq":"用户名不符合格式要求"},
+	{"yongli":"特殊符号进行注册","username": "###","email": "1997_15@qq.com","password": "123456789","repassword": "123456789","agree": "on","yq":"用户名不符合格式要求"},
+	{"yongli":"用户名为空进行注册","username": "","email": "1997_015@qq.com","password": "123456789","repassword": "123456789","agree": "on","yq":"用户名不符合格式要求"},
+	{"yongli":"用户名为22位进行注册","username": "uajdasidasmnjnixjnajnjda","email": "1997_015@qq.com","password": "123456789","repassword": "123456789","agree": "on","yq":"用户名不符合格式要求"},
+	{"yongli":"使用过的邮箱进行注册","username": "liuyouwei_002","email": "1997_01@qq.com","password": "123456789","repassword": "123456789","agree": "on","yq":"该邮箱已被使用"},
+	{"yongli":"邮箱不符合格式要求进行注册","username": "liuyouwei_002","email": "1997","password": "123456789","repassword": "123456789","agree": "on","yq":"无效的邮箱地址"},
+	{"yongli":"空邮箱进行注册","username": "liuyouwei_002","email": "","password": "123456789","repassword": "123456789","agree": "on","yq":"邮箱不能为空"},
+	{"yongli":"空密码进行注册","username": "liuyouwei_002","email": "1997_0016@qq.com","password": "","repassword": "123456789","agree": "on","yq":"密码不符合格式要求"},
+	{"yongli":"两次密码不一致进行注册","username": "liuyouwei_002","email": "1997_0016@qq.com","password": "123456","repassword": "123456789","agree": "on","yq":"两次密码不一致"},
+	{"yongli":"两次密码不一致进行注册","username": "liuyouwei_00","email": "1997_0016@qq.com","password": "123456789","repassword": "123456","agree": "on","yq":"两次密码不一致"},
+	{"yongli":"不同意协议进行注册","username": "liuyouwei_004","email": "1997_0018@qq.com","password": "123456789","repassword": "123456789","agree": "","yq":"必须阅读并同意用户注册协议"}
+]

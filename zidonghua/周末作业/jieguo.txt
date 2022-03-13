@@ -1,0 +1,9 @@
+test_chen_003 (jsqzuoye.jsqzuoye) ... ok
+test_chu_004 (jsqzuoye.jsqzuoye) ... ok
+test_jia_001 (jsqzuoye.jsqzuoye) ... ok
+test_jian_002 (jsqzuoye.jsqzuoye) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK

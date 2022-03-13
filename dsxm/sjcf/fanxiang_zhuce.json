@@ -1,0 +1,7 @@
+[
+    {"username":"","email":"123456789_03@qq.com","password":"123456789","repassword":"123456789","dy":"请设置用户名"},
+	{"username":"text","email":"123456789_03@qq.com","password":"123456789","repassword":"123456789","dy":"用户名不符合格式要求"},
+	{"username":"texttexttexttext1","email":"123456789_03@qq.com","password":"123456789","repassword":"123456789","dy":"用户名不符合格式要求"},
+	{"username":"11111111","email":"123456789_03@qq.com","password":"123456789","repassword":"123456789","dy":"用户名不符合格式要求"},
+	{"username":"######","email":"123456789_03@qq.com","password":"123456789","repassword":"123456789","dy":"用户名不符合格式要求"}
+]

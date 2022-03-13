@@ -1,0 +1,39 @@
+test_add_01 (testAdd.testAdd) ... ok
+test_add_02 (testAdd.testAdd) ... FAIL
+test_chengfang_01 (testAdd.testAdd) ... skipped '改方法还没实现呢！！！，先别执行！！！'
+test_chengfang_02 (testAdd.testAdd) ... FAIL
+test_chu_01 (testAdd.testAdd) ... unexpected success
+test_add_03 (testAdd_02.testAdd_02) ... FAIL
+test_add_04 (testAdd_02.testAdd_02) ... ok
+test_chengfang_03 (testAdd_02.testAdd_02) ... skipped '符合条件就跳过'
+test_chengfang_04 (testAdd_02.testAdd_02) ... skipped '改方法还没实现呢！！！，先别执行！！！'
+test_chu_02 (testAdd_02.testAdd_02) ... expected failure
+
+======================================================================
+FAIL: test_add_02 (testAdd.testAdd)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\3-Learning\16-BJ2104\seleniumDemo\day05\testAdd.py", line 29, in test_add_02
+    self.assertEqual(actualValue,expectValue,"预期和实际结果是不一致的")
+AssertionError: 4 != 3 : 预期和实际结果是不一致的
+
+======================================================================
+FAIL: test_chengfang_02 (testAdd.testAdd)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\3-Learning\16-BJ2104\seleniumDemo\day05\testAdd.py", line 63, in test_chengfang_02
+    self.assertEqual(actualValue,expectValue,"预期和实际结果是不一致的")
+AssertionError: None != 4 : 预期和实际结果是不一致的
+
+======================================================================
+FAIL: test_add_03 (testAdd_02.testAdd_02)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\3-Learning\16-BJ2104\seleniumDemo\day05\testAdd_02.py", line 29, in test_add_03
+    self.assertEqual(actualValue,expectValue,"预期和实际结果是不一致的")
+AssertionError: 4 != 3 : 预期和实际结果是不一致的
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.013s
+
+FAILED (failures=3, skipped=3, expected failures=1, unexpected successes=1)

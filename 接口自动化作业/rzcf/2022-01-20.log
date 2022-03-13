@@ -1,0 +1,451 @@
+2022-01-20-14-37-10
+用例=使用过的邮箱进行注册  预期=该邮箱已被使用  实际=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verydows-baseurl" content="http://39.101.167.251/qftest">
+<title>系统提示 - </title>
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/general.css" />
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/prompt.css" />
+<script type="text/javascript" src="http://39.101.167.251/qftest/public/script/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+  var $cd = $('#countdown'), $timer = parseInt($cd.text());
+  var t = window.setInterval(function(){
+    if($timer <= 1){window.clearInterval(t);}
+    $timer --;
+    $cd.text($timer);
+    if($timer == 0){
+      if($cd.data('redirect') == 'close'){
+        window.open(location, '_self').close();
+      }else{
+        window.location.href = $cd.data('redirect');
+      }
+    }
+  }, 1000); 
+});
+</script>
+</head>
+<body>
+<div class="w800">
+  <div class="aln-c"><a href="http://39.101.167.251/qftest/index.html"><img alt="" src="http://39.101.167.251/qftest/public/theme/frontend/default/images/logo.gif" /></a></div>
+  <div class="prompt mt10">
+    <h1 class="c666">系统提示</h1>
+    <h3 class="mt20 error">该邮箱已被使用<br />该用户名已被使用<br /></h3>
+        <p class="c999 mt20">您将在<font id="countdown" class="countdown" data-redirect="javascript:history.back()">3</font>秒后自动跳转到系统指定页面</p>
+    <p class="mt20"><a href="javascript:history.back()">如果浏览器没有自动跳转，请点击这里</a></p>
+      </div>
+</div>
+</body>
+</html>
+ 
+2022-01-20-14-37-11
+用例=邮箱不符合格式要求进行注册  预期=无效的邮箱地址  实际=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verydows-baseurl" content="http://39.101.167.251/qftest">
+<title>系统提示 - </title>
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/general.css" />
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/prompt.css" />
+<script type="text/javascript" src="http://39.101.167.251/qftest/public/script/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+  var $cd = $('#countdown'), $timer = parseInt($cd.text());
+  var t = window.setInterval(function(){
+    if($timer <= 1){window.clearInterval(t);}
+    $timer --;
+    $cd.text($timer);
+    if($timer == 0){
+      if($cd.data('redirect') == 'close'){
+        window.open(location, '_self').close();
+      }else{
+        window.location.href = $cd.data('redirect');
+      }
+    }
+  }, 1000); 
+});
+</script>
+</head>
+<body>
+<div class="w800">
+  <div class="aln-c"><a href="http://39.101.167.251/qftest/index.html"><img alt="" src="http://39.101.167.251/qftest/public/theme/frontend/default/images/logo.gif" /></a></div>
+  <div class="prompt mt10">
+    <h1 class="c666">系统提示</h1>
+    <h3 class="mt20 error">无效的邮箱地址<br />该用户名已被使用<br /></h3>
+        <p class="c999 mt20">您将在<font id="countdown" class="countdown" data-redirect="javascript:history.back()">3</font>秒后自动跳转到系统指定页面</p>
+    <p class="mt20"><a href="javascript:history.back()">如果浏览器没有自动跳转，请点击这里</a></p>
+      </div>
+</div>
+</body>
+</html>
+ 
+2022-01-20-14-37-12
+用例=空邮箱进行注册  预期=邮箱不能为空  实际=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verydows-baseurl" content="http://39.101.167.251/qftest">
+<title>系统提示 - </title>
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/general.css" />
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/prompt.css" />
+<script type="text/javascript" src="http://39.101.167.251/qftest/public/script/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+  var $cd = $('#countdown'), $timer = parseInt($cd.text());
+  var t = window.setInterval(function(){
+    if($timer <= 1){window.clearInterval(t);}
+    $timer --;
+    $cd.text($timer);
+    if($timer == 0){
+      if($cd.data('redirect') == 'close'){
+        window.open(location, '_self').close();
+      }else{
+        window.location.href = $cd.data('redirect');
+      }
+    }
+  }, 1000); 
+});
+</script>
+</head>
+<body>
+<div class="w800">
+  <div class="aln-c"><a href="http://39.101.167.251/qftest/index.html"><img alt="" src="http://39.101.167.251/qftest/public/theme/frontend/default/images/logo.gif" /></a></div>
+  <div class="prompt mt10">
+    <h1 class="c666">系统提示</h1>
+    <h3 class="mt20 error">邮箱不能为空<br />该用户名已被使用<br /></h3>
+        <p class="c999 mt20">您将在<font id="countdown" class="countdown" data-redirect="javascript:history.back()">3</font>秒后自动跳转到系统指定页面</p>
+    <p class="mt20"><a href="javascript:history.back()">如果浏览器没有自动跳转，请点击这里</a></p>
+      </div>
+</div>
+</body>
+</html>
+ 
+2022-01-20-14-37-14
+用例=空密码进行注册  预期=密码不符合格式要求  实际=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verydows-baseurl" content="http://39.101.167.251/qftest">
+<title>系统提示 - </title>
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/general.css" />
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/prompt.css" />
+<script type="text/javascript" src="http://39.101.167.251/qftest/public/script/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+  var $cd = $('#countdown'), $timer = parseInt($cd.text());
+  var t = window.setInterval(function(){
+    if($timer <= 1){window.clearInterval(t);}
+    $timer --;
+    $cd.text($timer);
+    if($timer == 0){
+      if($cd.data('redirect') == 'close'){
+        window.open(location, '_self').close();
+      }else{
+        window.location.href = $cd.data('redirect');
+      }
+    }
+  }, 1000); 
+});
+</script>
+</head>
+<body>
+<div class="w800">
+  <div class="aln-c"><a href="http://39.101.167.251/qftest/index.html"><img alt="" src="http://39.101.167.251/qftest/public/theme/frontend/default/images/logo.gif" /></a></div>
+  <div class="prompt mt10">
+    <h1 class="c666">系统提示</h1>
+    <h3 class="mt20 error">两次密码不一致<br />该用户名已被使用<br />密码不符合格式要求<br /></h3>
+        <p class="c999 mt20">您将在<font id="countdown" class="countdown" data-redirect="javascript:history.back()">3</font>秒后自动跳转到系统指定页面</p>
+    <p class="mt20"><a href="javascript:history.back()">如果浏览器没有自动跳转，请点击这里</a></p>
+      </div>
+</div>
+</body>
+</html>
+ 
+2022-01-20-14-37-15
+用例=两次密码不一致进行注册  预期=两次密码不一致  实际=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verydows-baseurl" content="http://39.101.167.251/qftest">
+<title>系统提示 - </title>
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/general.css" />
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/prompt.css" />
+<script type="text/javascript" src="http://39.101.167.251/qftest/public/script/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+  var $cd = $('#countdown'), $timer = parseInt($cd.text());
+  var t = window.setInterval(function(){
+    if($timer <= 1){window.clearInterval(t);}
+    $timer --;
+    $cd.text($timer);
+    if($timer == 0){
+      if($cd.data('redirect') == 'close'){
+        window.open(location, '_self').close();
+      }else{
+        window.location.href = $cd.data('redirect');
+      }
+    }
+  }, 1000); 
+});
+</script>
+</head>
+<body>
+<div class="w800">
+  <div class="aln-c"><a href="http://39.101.167.251/qftest/index.html"><img alt="" src="http://39.101.167.251/qftest/public/theme/frontend/default/images/logo.gif" /></a></div>
+  <div class="prompt mt10">
+    <h1 class="c666">系统提示</h1>
+    <h3 class="mt20 error">两次密码不一致<br />该用户名已被使用<br /></h3>
+        <p class="c999 mt20">您将在<font id="countdown" class="countdown" data-redirect="javascript:history.back()">3</font>秒后自动跳转到系统指定页面</p>
+    <p class="mt20"><a href="javascript:history.back()">如果浏览器没有自动跳转，请点击这里</a></p>
+      </div>
+</div>
+</body>
+</html>
+ 
+2022-01-20-14-37-16
+用例=两次密码不一致进行注册  预期=两次密码不一致  实际=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verydows-baseurl" content="http://39.101.167.251/qftest">
+<title>系统提示 - </title>
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/general.css" />
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/prompt.css" />
+<script type="text/javascript" src="http://39.101.167.251/qftest/public/script/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+  var $cd = $('#countdown'), $timer = parseInt($cd.text());
+  var t = window.setInterval(function(){
+    if($timer <= 1){window.clearInterval(t);}
+    $timer --;
+    $cd.text($timer);
+    if($timer == 0){
+      if($cd.data('redirect') == 'close'){
+        window.open(location, '_self').close();
+      }else{
+        window.location.href = $cd.data('redirect');
+      }
+    }
+  }, 1000); 
+});
+</script>
+</head>
+<body>
+<div class="w800">
+  <div class="aln-c"><a href="http://39.101.167.251/qftest/index.html"><img alt="" src="http://39.101.167.251/qftest/public/theme/frontend/default/images/logo.gif" /></a></div>
+  <div class="prompt mt10">
+    <h1 class="c666">系统提示</h1>
+    <h3 class="mt20 error">两次密码不一致<br /></h3>
+        <p class="c999 mt20">您将在<font id="countdown" class="countdown" data-redirect="javascript:history.back()">3</font>秒后自动跳转到系统指定页面</p>
+    <p class="mt20"><a href="javascript:history.back()">如果浏览器没有自动跳转，请点击这里</a></p>
+      </div>
+</div>
+</body>
+</html>
+ 
+2022-01-20-14-37-17
+用例=不同意协议进行注册  预期=必须阅读并同意用户注册协议  实际=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verydows-baseurl" content="http://39.101.167.251/qftest">
+<title>系统提示 - </title>
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/general.css" />
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/prompt.css" />
+<script type="text/javascript" src="http://39.101.167.251/qftest/public/script/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+  var $cd = $('#countdown'), $timer = parseInt($cd.text());
+  var t = window.setInterval(function(){
+    if($timer <= 1){window.clearInterval(t);}
+    $timer --;
+    $cd.text($timer);
+    if($timer == 0){
+      if($cd.data('redirect') == 'close'){
+        window.open(location, '_self').close();
+      }else{
+        window.location.href = $cd.data('redirect');
+      }
+    }
+  }, 1000); 
+});
+</script>
+</head>
+<body>
+<div class="w800">
+  <div class="aln-c"><a href="http://39.101.167.251/qftest/index.html"><img alt="" src="http://39.101.167.251/qftest/public/theme/frontend/default/images/logo.gif" /></a></div>
+  <div class="prompt mt10">
+    <h1 class="c666">系统提示</h1>
+    <h3 class="mt20 error">该邮箱已被使用<br />该用户名已被使用<br /></h3>
+        <p class="c999 mt20">您将在<font id="countdown" class="countdown" data-redirect="javascript:history.back()">3</font>秒后自动跳转到系统指定页面</p>
+    <p class="mt20"><a href="javascript:history.back()">如果浏览器没有自动跳转，请点击这里</a></p>
+      </div>
+</div>
+</body>
+</html>
+ 
+2022-01-20-14-37-17
+用例=不同意协议进行注册  预期=必须阅读并同意用户注册协议  实际=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verydows-baseurl" content="http://39.101.167.251/qftest">
+<title>系统提示 - </title>
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/general.css" />
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/prompt.css" />
+<script type="text/javascript" src="http://39.101.167.251/qftest/public/script/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+  var $cd = $('#countdown'), $timer = parseInt($cd.text());
+  var t = window.setInterval(function(){
+    if($timer <= 1){window.clearInterval(t);}
+    $timer --;
+    $cd.text($timer);
+    if($timer == 0){
+      if($cd.data('redirect') == 'close'){
+        window.open(location, '_self').close();
+      }else{
+        window.location.href = $cd.data('redirect');
+      }
+    }
+  }, 1000); 
+});
+</script>
+</head>
+<body>
+<div class="w800">
+  <div class="aln-c"><a href="http://39.101.167.251/qftest/index.html"><img alt="" src="http://39.101.167.251/qftest/public/theme/frontend/default/images/logo.gif" /></a></div>
+  <div class="prompt mt10">
+    <h1 class="c666">系统提示</h1>
+    <h3 class="mt20 error">该邮箱已被使用<br />该用户名已被使用<br /></h3>
+        <p class="c999 mt20">您将在<font id="countdown" class="countdown" data-redirect="javascript:history.back()">3</font>秒后自动跳转到系统指定页面</p>
+    <p class="mt20"><a href="javascript:history.back()">如果浏览器没有自动跳转，请点击这里</a></p>
+      </div>
+</div>
+</body>
+</html>
+ 
+2022-01-20-14-37-18
+正向登陆用例  预期=登陆成功  实际=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verydows-baseurl" content="http://39.101.167.251/qftest">
+<title>系统提示 - </title>
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/general.css" />
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/prompt.css" />
+<script type="text/javascript" src="http://39.101.167.251/qftest/public/script/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+  var $cd = $('#countdown'), $timer = parseInt($cd.text());
+  var t = window.setInterval(function(){
+    if($timer <= 1){window.clearInterval(t);}
+    $timer --;
+    $cd.text($timer);
+    if($timer == 0){
+      if($cd.data('redirect') == 'close'){
+        window.open(location, '_self').close();
+      }else{
+        window.location.href = $cd.data('redirect');
+      }
+    }
+  }, 1000); 
+});
+</script>
+</head>
+<body>
+<div class="w800">
+  <div class="aln-c"><a href="http://39.101.167.251/qftest/index.html"><img alt="" src="http://39.101.167.251/qftest/public/theme/frontend/default/images/logo.gif" /></a></div>
+  <div class="prompt mt10">
+    <h1 class="c666">系统提示</h1>
+    <h3 class="mt20 success">登录成功</h3>
+        <p class="c999 mt20">您将在<font id="countdown" class="countdown" data-redirect="http://39.101.167.251/qftest/user/index.html">3</font>秒后自动跳转到系统指定页面</p>
+    <p class="mt20"><a href="http://39.101.167.251/qftest/user/index.html">如果浏览器没有自动跳转，请点击这里</a></p>
+      </div>
+</div>
+</body>
+</html>
+ 
+2022-01-20-14-37-19
+个人资料修改用例  预期=更新资料成功  实际=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verydows-baseurl" content="http://39.101.167.251/qftest">
+<title>系统提示 - </title>
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/general.css" />
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/prompt.css" />
+<script type="text/javascript" src="http://39.101.167.251/qftest/public/script/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+  var $cd = $('#countdown'), $timer = parseInt($cd.text());
+  var t = window.setInterval(function(){
+    if($timer <= 1){window.clearInterval(t);}
+    $timer --;
+    $cd.text($timer);
+    if($timer == 0){
+      if($cd.data('redirect') == 'close'){
+        window.open(location, '_self').close();
+      }else{
+        window.location.href = $cd.data('redirect');
+      }
+    }
+  }, 1000); 
+});
+</script>
+</head>
+<body>
+<div class="w800">
+  <div class="aln-c"><a href="http://39.101.167.251/qftest/index.html"><img alt="" src="http://39.101.167.251/qftest/public/theme/frontend/default/images/logo.gif" /></a></div>
+  <div class="prompt mt10">
+    <h1 class="c666">系统提示</h1>
+    <h3 class="mt20 success">更新资料成功</h3>
+        <p class="c999 mt20">您将在<font id="countdown" class="countdown" data-redirect="http://39.101.167.251/qftest/user/profile.html">3</font>秒后自动跳转到系统指定页面</p>
+    <p class="mt20"><a href="http://39.101.167.251/qftest/user/profile.html">如果浏览器没有自动跳转，请点击这里</a></p>
+      </div>
+</div>
+</body>
+</html>
+ 
+2022-01-20-14-37-20
+新建收货地址用例  预期=新建收件人地址成功  实际=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verydows-baseurl" content="http://39.101.167.251/qftest">
+<title>系统提示 - </title>
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/general.css" />
+<link rel="stylesheet" type="text/css" href="http://39.101.167.251/qftest/public/theme/frontend/default/css/prompt.css" />
+<script type="text/javascript" src="http://39.101.167.251/qftest/public/script/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+  var $cd = $('#countdown'), $timer = parseInt($cd.text());
+  var t = window.setInterval(function(){
+    if($timer <= 1){window.clearInterval(t);}
+    $timer --;
+    $cd.text($timer);
+    if($timer == 0){
+      if($cd.data('redirect') == 'close'){
+        window.open(location, '_self').close();
+      }else{
+        window.location.href = $cd.data('redirect');
+      }
+    }
+  }, 1000); 
+});
+</script>
+</head>
+<body>
+<div class="w800">
+  <div class="aln-c"><a href="http://39.101.167.251/qftest/index.html"><img alt="" src="http://39.101.167.251/qftest/public/theme/frontend/default/images/logo.gif" /></a></div>
+  <div class="prompt mt10">
+    <h1 class="c666">系统提示</h1>
+    <h3 class="mt20 success">新建收件人地址成功</h3>
+        <p class="c999 mt20">您将在<font id="countdown" class="countdown" data-redirect="http://39.101.167.251/qftest/consignee/list.html">3</font>秒后自动跳转到系统指定页面</p>
+    <p class="mt20"><a href="http://39.101.167.251/qftest/consignee/list.html">如果浏览器没有自动跳转，请点击这里</a></p>
+      </div>
+</div>
+</body>
+</html>
+ 

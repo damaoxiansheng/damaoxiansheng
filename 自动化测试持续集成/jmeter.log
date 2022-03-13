@@ -1,0 +1,139 @@
+2022-01-07 18:01:51,744 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2022-01-07 18:01:51,767 INFO o.a.j.JMeter: Loading user properties from: D:\apache-jmeter-5.0\bin\user.properties
+2022-01-07 18:01:51,768 INFO o.a.j.JMeter: Loading system properties from: D:\apache-jmeter-5.0\bin\system.properties
+2022-01-07 18:01:51,780 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2022-01-07 18:01:51,780 INFO o.a.j.JMeter: Version 5.0 r1840935
+2022-01-07 18:01:51,780 INFO o.a.j.JMeter: java.version=11.0.13
+2022-01-07 18:01:51,780 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-01-07 18:01:51,780 INFO o.a.j.JMeter: os.name=Windows 10
+2022-01-07 18:01:51,780 INFO o.a.j.JMeter: os.arch=amd64
+2022-01-07 18:01:51,781 INFO o.a.j.JMeter: os.version=10.0
+2022-01-07 18:01:51,781 INFO o.a.j.JMeter: file.encoding=GBK
+2022-01-07 18:01:51,781 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-01-07 18:01:51,782 INFO o.a.j.JMeter: Available Processors =8
+2022-01-07 18:01:51,787 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-01-07 18:01:51,787 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
+2022-01-07 18:01:51,787 INFO o.a.j.JMeter: JMeterHome=D:\apache-jmeter-5.0
+2022-01-07 18:01:51,787 INFO o.a.j.JMeter: user.dir  =D:\pythonzuoye\自动化测试持续集成
+2022-01-07 18:01:51,787 INFO o.a.j.JMeter: PWD       =D:\pythonzuoye\自动化测试持续集成
+2022-01-07 18:01:51,789 INFO o.a.j.JMeter: IP: 172.20.10.12 Name: LAPTOP-M6V3CG9M FullName: LAPTOP-M6V3CG9M
+2022-01-07 18:01:51,999 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2022-01-07 18:01:52,006 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: javax.swing.plaf.nimbus.NimbusLookAndFeel [Darcula]
+2022-01-07 18:01:52,006 INFO o.a.j.JMeter: Setting LAF to: javax.swing.plaf.nimbus.NimbusLookAndFeel
+2022-01-07 18:01:52,038 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-01-07 18:01:52,430 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-01-07 18:01:52,430 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-01-07 18:01:54,038 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-07 18:01:54,039 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-07 18:01:54,039 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-07 18:01:54,039 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-01-07 18:01:54,039 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-01-07 18:01:54,039 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-01-07 18:01:54,544 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2022-01-07 18:01:54,545 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file D:\apache-jmeter-5.0\bin\proxyserver.jks
+2022-01-07 18:01:54,704 INFO o.a.j.s.FileServer: Default base='D:\pythonzuoye\自动化测试持续集成'
+2022-01-07 18:01:55,227 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-01-07 18:01:55,227 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-01-07 18:01:55,227 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-01-07 18:01:55,227 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-01-07 18:01:55,241 WARN o.a.j.v.ViewResultsFullVisualizer: Error loading result renderer: org.apache.jmeter.visualizers.RenderInBrowser
+java.lang.NoClassDefFoundError: javafx/embed/swing/JFXPanel
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:315) ~[?:?]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createComboRender(ViewResultsFullVisualizer.java:462) [ApacheJMeter_components.jar:5.0 r1840935]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createLeftPanel(ViewResultsFullVisualizer.java:430) [ApacheJMeter_components.jar:5.0 r1840935]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.init(ViewResultsFullVisualizer.java:342) [ApacheJMeter_components.jar:5.0 r1840935]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.<init>(ViewResultsFullVisualizer.java:147) [ApacheJMeter_components.jar:5.0 r1840935]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:584) [?:?]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:174) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:141) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:106) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:92) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:184) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) [ApacheJMeter_core.jar:5.0 r1840935]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) [?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) [?:?]
+	at java.security.AccessController.doPrivileged(Native Method) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.lang.ClassNotFoundException: javafx.embed.swing.JFXPanel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:476) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	... 32 more
+2022-01-07 18:01:55,956 INFO o.a.j.g.a.Load: Loading file: C:\Users\78461\Desktop\Script.jmx
+2022-01-07 18:01:55,956 INFO o.a.j.s.FileServer: Set new base='C:\Users\78461\Desktop'
+2022-01-07 18:01:56,147 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-01-07 18:01:56,155 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-01-07 18:01:56,156 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-01-07 18:01:56,157 INFO o.a.j.s.SaveService: Loading file: C:\Users\78461\Desktop\Script.jmx
+2022-01-07 18:01:56,180 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2022-01-07 18:01:56,245 INFO o.a.j.s.FileServer: Set new base='C:\Users\78461\Desktop'
+2022-01-07 18:02:58,537 WARN o.a.j.v.ViewResultsFullVisualizer: Error loading result renderer: org.apache.jmeter.visualizers.RenderInBrowser
+java.lang.NoClassDefFoundError: javafx/embed/swing/JFXPanel
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:315) ~[?:?]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createComboRender(ViewResultsFullVisualizer.java:462) [ApacheJMeter_components.jar:5.0 r1840935]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createLeftPanel(ViewResultsFullVisualizer.java:430) [ApacheJMeter_components.jar:5.0 r1840935]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.init(ViewResultsFullVisualizer.java:342) [ApacheJMeter_components.jar:5.0 r1840935]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.<init>(ViewResultsFullVisualizer.java:147) [ApacheJMeter_components.jar:5.0 r1840935]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:584) [?:?]
+	at org.apache.jmeter.gui.GuiPackage.getGuiFromCache(GuiPackage.java:405) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.GuiPackage.createTestElement(GuiPackage.java:352) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.AddToTree.doAction(AddToTree.java:68) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) [ApacheJMeter_core.jar:5.0 r1840935]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) [?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) [?:?]
+	at java.security.AccessController.doPrivileged(Native Method) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.lang.ClassNotFoundException: javafx.embed.swing.JFXPanel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:476) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	... 29 more
+2022-01-07 18:03:00,791 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-01-07 18:03:00,792 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-07 18:03:00,792 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-01-07 18:03:00,802 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-01-07 18:03:00,852 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2022-01-07 18:03:00,855 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2022-01-07 18:03:00,856 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-01-07 18:03:00,857 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2022-01-07 18:03:00,861 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-01-07 18:03:00,861 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-01-07 18:03:00,866 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2022-01-07 18:03:00,870 INFO o.a.j.c.LoopController: iterationStart called on Step 1 with source org.apache.jmeter.control.LoopController@4e0a8988 and iteration 1
+2022-01-07 18:03:00,879 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-M6V3CG9M
+2022-01-07 18:03:00,883 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-01-07 18:03:02,671 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2022-01-07 18:03:02,672 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2022-01-07 18:03:02,672 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-01-07 18:03:02,672 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

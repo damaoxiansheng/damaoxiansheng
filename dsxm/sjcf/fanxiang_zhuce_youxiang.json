@@ -1,0 +1,4 @@
+[
+    {"username":"asdasd_04","email":"12345678","password":"123456789","repassword":"123456789","dy":"无效的邮箱地址"},
+	{"username":"asdasd_04","email":"","password":"123456789","repassword":"123456789","dy":"请设置邮箱"}
+]

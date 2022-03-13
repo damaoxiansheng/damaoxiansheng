@@ -1,0 +1,4 @@
+[
+    {"username":"asdasd_04","email":"123456789_04@qq.com","password":"123456789","repassword":"12345","dy":"两次密码不一致"},
+	{"username":"asdasd_04","email":"123456789_04@qq.com","password":"123456789","repassword":"","dy":"两次密码不一致"}
+]

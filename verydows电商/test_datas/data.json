@@ -1,0 +1,5 @@
+[
+    {"username":"","expect":"请设置用户名"},
+    {"username":"12test","expect":"用户名不符合格式要求"},
+    {"username":"test###","expect":"用户名不符合格式要求"}
+]

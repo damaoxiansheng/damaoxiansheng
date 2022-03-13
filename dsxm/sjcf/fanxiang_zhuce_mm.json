@@ -1,0 +1,5 @@
+[
+    {"username":"asdasd_04","email":"123456789_04@qq.com","password":"12345","repassword":"12345","dy":"密码不符合格式要求"},
+	{"username":"asdasd_04","email":"123456789_04@qq.com","password":"123456789012345678901234567890123","repassword":"123456789012345678901234567890123","dy":"密码不符合格式要求"},
+	{"username":"asdasd_04","email":"123456789_04@qq.com","password":"","repassword":"","dy":"请设置密码"}
+]

@@ -1,0 +1,5 @@
+20211207104623,verydows_login_true.py,test_login_01,bk2104_002,bk2104_001,测试执行失败
+20211207152420,e:\3-Learning\16-BJ2104\seleniumDemo\verydows电商\test_cases\verydows_login_true.py,test_login_01,bk2104_002,bk2104_001,测试执行失败
+20211207152449,e:\3-Learning\16-BJ2104\seleniumDemo\verydows电商\test_cases\verydows_reg_username.py,test_username_01,请设置用户名11,请设置用户名,断言失败
+20211207154657,E:\3-Learning\16-BJ2104\seleniumDemo\verydows电商\test_cases\verydows_login_true.py,test_login_01,bk2104_002,bk2104_001,测试执行失败
+20211207154718,E:\3-Learning\16-BJ2104\seleniumDemo\verydows电商\test_cases\verydows_reg_username.py,test_username_01,请设置用户名11,请设置用户名,断言失败
